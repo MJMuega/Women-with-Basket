@@ -1,11 +1,12 @@
-
-@media screen and (min-width: 1000px) {
-    main{
-        display: grid;
-        column-gap: normal;
-        place-items: center;
-    }
-  
+img {
+    width: 100%;
+    height: auto;
+}
+.fit {
+    display: flex;
+}
+main {
+    padding: 120px;
 }
 .center {
     text-align: center;
@@ -16,10 +17,6 @@
     text-align: center;
     font-size: 100px;
 }
-.fit{
-    display: flex;
-    place-items: center;
-}
 .responsive {
     width: 100%;
     height: auto;
@@ -27,7 +24,7 @@
 video {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 body {
