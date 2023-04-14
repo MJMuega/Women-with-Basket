@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 1000px) {
+    main{
+        display: grid;
+        column-gap: normal;
+        place-items: center;
+    }
+  
+}
+.center {
+    text-align: center;
+    font-size: 180px;
+
+}
+.p {
+    text-align: center;
+    font-size: 100px;
+}
+.fit{
+    display: flex;
+    place-items: center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+video {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    height: auto;
+}
+body {
+    background-color: rgb(210, 214, 171);
+}
+.description{
+    text-align: center;
+    font-size: 50px;
+}
